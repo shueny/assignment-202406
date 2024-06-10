@@ -1,6 +1,4 @@
 import { Link } from '@nextui-org/link'
-import { Snippet } from '@nextui-org/snippet'
-import { Code } from '@nextui-org/code'
 import { button as buttonStyles } from '@nextui-org/theme'
 
 import { siteConfig } from '@/config/site'
@@ -13,8 +11,7 @@ export default function Home() {
       <div className="inline-block max-w-lg text-center justify-center">
         <p>Hello!&nbsp;</p>
         <h1>
-          I'm <span className={typeWriter()}>Shueny Wang</span>
-          &nbsp;
+          I am <span className={typeWriter()}>Shueny Wang</span>
         </h1>
         <br />
         <h1 className={title()}>Make&nbsp;</h1>
