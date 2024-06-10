@@ -17,10 +17,6 @@ export const siteConfig = {
 			label: 'Task Two',
 			href: '/task-two',
 		},
-		{
-			label: 'Task Three',
-			href: '/task-three',
-		},
 	],
 	navMenuItems: [],
 	links: {
