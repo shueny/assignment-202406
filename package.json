@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
     "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
   },
   "dependencies": {
@@ -53,5 +54,8 @@
     "tailwind-variants": "0.1.20",
     "tailwindcss": "3.4.3",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.2.3"
   }
 }
